@@ -1,0 +1,16 @@
+name: Custom
+url: http://madtinker.net
+description: The Mad Tinker
+permalink: /:title/
+
+include:
+  - _pages
+  - jemoji
+  - _posts
+
+paginate: 5
+
+gems: [jekyll-paginate]
+exclude: ["README.md", "Gemfile.lock", "Gemfile", "Rakefile"]
+highlighter: rouge
+baseurl: /
